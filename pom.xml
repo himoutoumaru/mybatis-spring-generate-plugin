@@ -46,4 +46,31 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>LogInsight</id>
+            <name>LogInsight</name>
+            <url>http://10.128.210.150:8081/repository/LogInsight/</url>
+        </repository>
+    </distributionManagement>
+    <repositories>
+        <repository>
+            <id>NPM</id>
+            <url>http://10.128.9.41:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <repository>
+            <id>LogInsight</id>
+            <url>http://10.128.210.150:8081/repository/LogInsight/</url>
+        </repository>
+
+        <repository>
+            <id>aliyunmaven</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>oss</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
 </project>
